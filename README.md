@@ -1,4 +1,4 @@
-# 🔐 Password Strength Analyzer
+ Password Strength Analyzer teste
 
 Ferramenta CLI em Python para analisar a força de senhas e identificar vulnerabilidades comuns.
 
@@ -8,7 +8,7 @@ Ferramenta CLI em Python para analisar a força de senhas e identificar vulnerab
 
 ---
 
-## 📋 Funcionalidades
+  Funcionalidades
 
 - ✅ Verifica comprimento, complexidade e diversidade de caracteres
 - ✅ Detecta senhas comuns e vazadas
@@ -21,17 +21,17 @@ Ferramenta CLI em Python para analisar a força de senhas e identificar vulnerab
 
 ---
 
-## 🖥️ Demo
+##  Demo
 
 ```
 ═══════════════════════════════════════════════════
-       🔐 PASSWORD STRENGTH ANALYZER
+        PASSWORD STRENGTH ANALYZER
 ═══════════════════════════════════════════════════
 
-📋 Senha analisada : ****************
-💪 Força           : 🟢 FORTE
-📊 Pontuação       : [██████████████████████████░░░░] 87/100
-🎲 Entropia        : 104.1 bits
+ Senha analisada : ****************
+ Força           : 🟢 FORTE
+Pontuação       : [██████████████████████████░░░░] 87/100
+ Entropia        : 104.1 bits
 
 ─── Detalhes ───────────────────────────────────────
   ✅ Comprimento excelente (16+ caracteres)
@@ -46,13 +46,13 @@ Ferramenta CLI em Python para analisar a força de senhas e identificar vulnerab
 
 ---
 
-## 🚀 Como usar
+ Como usar
 
-### Pré-requisitos
+ Pré-requisitos
 
-- Python 3.8+
+ Python 3.8+
 
-### Instalação
+ Instalação
 
 ```bash
 git clone https://github.com/seu-usuario/password-analyzer.git
@@ -85,7 +85,7 @@ python analyzer.py --gerar --tamanho 20
 
 ---
 
-## 🧪 Testes
+##  Testes
 
 ```bash
 pip install pytest
@@ -94,7 +94,7 @@ python -m pytest tests.py -v
 
 ---
 
-## 📊 Critérios de Avaliação
+ Critérios de Avaliação
 
 | Critério               | Pontos |
 |------------------------|--------|
@@ -109,7 +109,7 @@ python -m pytest tests.py -v
 | Caracteres repetidos   | -10    |
 | Sequências previsíveis | -10    |
 
-### Classificação
+ Classificação
 
 | Pontuação | Força         |
 |-----------|---------------|
@@ -121,7 +121,7 @@ python -m pytest tests.py -v
 
 ---
 
-## 🔒 Conceitos de segurança aplicados
+ Conceitos de segurança aplicados
 
 - **Entropia**: Mede a imprevisibilidade da senha. Calculada com `len(senha) × log₂(charset)`. Senhas com 60+ bits são consideradas seguras.
 - **Wordlist**: Verificação contra senhas mais comuns do mundo (baseada em listas de vazamentos reais como rockyou.txt).
@@ -130,7 +130,7 @@ python -m pytest tests.py -v
 
 ---
 
-## 📁 Estrutura do projeto
+ Estrutura do projeto
 
 ```
 password-analyzer/
@@ -142,12 +142,12 @@ password-analyzer/
 
 ---
 
-## ⚠️ Aviso ético
+ Aviso ético
 
 Esta ferramenta foi desenvolvida para fins educacionais e para ajudar usuários a criarem senhas mais seguras. Use apenas para analisar suas próprias senhas ou em ambientes autorizados.
 
 ---
 
-## 📄 Licença
+ Licença
 
 MIT License — fique à vontade para usar, modificar e distribuir.
